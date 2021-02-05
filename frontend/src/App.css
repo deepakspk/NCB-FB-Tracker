@@ -1,0 +1,11 @@
+body {
+  margin-top: 20px;
+}
+.App {
+  text-align: center;
+}
+.welcome {
+  color:blueviolet;
+  font-size: 25px;
+}
+
