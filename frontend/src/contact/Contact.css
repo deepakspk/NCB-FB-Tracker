@@ -58,3 +58,12 @@
   background-color: #6598f7;
   color: #fff;
 }
+
+@media (max-width: 770px) {
+  .contact-sticky-form {
+    position:static;
+    top:25px;
+    width:100%;
+    z-index:100;
+  }
+}
