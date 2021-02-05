@@ -16,6 +16,7 @@ mongoose.connect(
 
 app.post('/insert', (req, res) => {
     const name = req.body.name;
+    const phone = req.body.phone;
     const post = req.body.post;
     const product = req.body.product;
     const date = req.body.date;
@@ -23,6 +24,7 @@ app.post('/insert', (req, res) => {
 
     const followup = new FollowUpModel({ 
         name: name,
+        phone: phone,
         post: post,
         product: product,
         date: date,
